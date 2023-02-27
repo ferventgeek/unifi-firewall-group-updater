@@ -1,0 +1,25 @@
+# list of DNS Names for grafana Cloud synthetic probes.
+# there are multiple IP's for each
+
+ssm-amsterdam.grafana.net
+sm-atlanta.grafana.net
+sm-bangalore.grafana.net
+sm-capetown.grafana.net
+sm-dallas.grafana.net
+sm-frankfurt.grafana.net
+sm-london.grafana.net
+sm-mumbai.grafana.net
+sm-newark.grafana.net
+sm-newyork.grafana.net
+sm-northcalifornia.grafana.net
+sm-northvirginia.grafana.net
+sm-ohio.grafana.net
+sm-oregon.grafana.net
+sm-paris.grafana.net
+sm-sanfrancisco.grafana.net
+sm-saopaulo.grafana.net
+sm-seoul.grafana.net
+sm-singapore.grafana.net
+sm-sydney.grafana.net
+sm-tokyo.grafana.net
+sm-toronto.grafana.net
