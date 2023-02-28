@@ -11,7 +11,7 @@ TLDR: What it Does
     * Unifi Controller connections details (path, user, password)
 2. The script will then:
     * Lookup all the DNS 'A' records for each host in the host file
-    * Create and de-dupe the ist of IP's to push to the Unifi Controller
+    * Create and de-dupe a list of IP's to push to the Unifi Controller
     * Connect and pull the current list of IPs from the controller
     * Optionally display the change diff and confirm before the update
     * Update the Unifi Controller's indicated Firewall Group with the new IP list
