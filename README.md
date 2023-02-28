@@ -59,9 +59,9 @@ And so, this script. It's a quick hack, but you're sure to find many more uses f
 
 If you want to manually run it, it includes an interactive mode which will prompt you for the details it needs. It also confirms the host list file path before starting.
 
-Installation 
+How to Use 
 =====================
-Download the Script and Requirements
+Installation
 -------------------
 Switch to a directory where you want to put the script, then pull the repo:
 ```
