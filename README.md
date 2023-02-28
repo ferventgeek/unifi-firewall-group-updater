@@ -3,8 +3,8 @@ Unifi Firewall Group REST Updater
 ============================
 This script is designed to automate the management of Firewall Groups on Ubiquiti Unifi controllers. That can be a challenge when managing multiple lists, lists of IPs are long, or you'd like to automate DNS lookup and push to a Unifi Controller. It works for any source of IP's and Unifi Firewall Group, not just the Grafana Cloud example below.
 
-TLDR: What Does it DO?
-----------------------
+TLDR: What it Does
+-------------------
 1. Give it the following details:
     * Path to a file with a list of source hostnames to add to a Unifi Firewall Group
     * Alphanumeric ID of the Firewall Group to update
@@ -142,11 +142,10 @@ Options:
   [![Firewall Group List diff View](images/diff-output-confirm-small.png)](images/diff-output-confirm.png)]
 <br>*Image: Firewall Group List diff View* (click to embiggen)
 
-Good Luck!
+Have fun
 ==========
 Hopefully you'll find a use for this Unifi automation script. It's saving me a ton of time and fat-finger troubleshooting heartache. It should be part of a larger management platform module, but then it would still be sitting on a local drive.
 
 I'm old to code but new to Python. I'd love your feedback and will help as I'm able.
 
-Have fun.
   
