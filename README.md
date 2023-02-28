@@ -135,9 +135,18 @@ Options:
   ```
   Confirmation Option
   -------------------
-  If `--confirm=False` is not specified, the script will halt and display a "confirm to continue [TRUE]" prompt. Confirm is the default behavior. **If you are running the script on an automated schedule please make sure you set `--confirm=False` or it will halt. And you'll shake your fist.
+  If `--confirm=False` is not specified, the script will halt and display an `Apply changes to the Unifi Controller? [TRUE]` prompt. Confirm is the default behavior. **If you are running the script on an automated schedule please make sure you set `--confirm=False` or it will halt**. And you'll shake your fist at the MIT license's lack of support.
 
-  But you get a neat little treat with the default `--confirm=True`: a diff of the changes that will be made on the Unifi Controller.
+  However, confirm includes a neat little treat with the default `--confirm=True`: a diff of the changes that will be made on the Unifi Controller.
 
   [![Firewall Group List diff View](images/diff-output-confirm-small.png)](images/diff-output-confirm.png)]
 <br>*Image: Firewall Group List diff View* (click to embiggen)
+
+Good Luck!
+==========
+Hopefully you'll find a use for this Unifi automation script. It's saving me a ton of time and fat-finger troubleshooting heartache. It should be part of a larger management platform module, but then it would still be sitting on a local drive.
+
+I'm old to code but new to Python. I'd love your feedback and will help as I'm able.
+
+Have fun.
+  
