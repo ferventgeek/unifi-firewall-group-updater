@@ -28,7 +28,9 @@ In my case I try to keep my home network as close to invisible to the internet a
 There's Always a But
 --------------------
 
-To make that work however, you must create two Unifi Firewall Rules. One to drop all incoming ICMP packets, and the other a specific WAN Local rule to explicitly allow ICMP for the host IP's of Grafana Cloud (or your synthetic test site of choice). Next, click "Edit" on the firewall group and then manually edit the IPs required for the long list of Grafana Cloud Synthetic test probes. But there's a catch.
+To make that work, you must create two Unifi Firewall Rules. One to drop all incoming ICMP packets, and the other a specific WAN Local rule to explicitly allow ICMP for the host IP list of Grafana Cloud (or your synthetic test site of choice). 
+
+The challenge becomes weekly to daily management of the IP lists. To do that means manually clicking "Edit" on the Unifi ICMP allow firewall group and editing the IPs required for the long list of Grafana Cloud Synthetic test probes. Eventually that gets old, and ignored, and I start seeing Sev 1 "WAN Down" alerts from Grafana. 
 
 The first part is easy, configure the rule, then create a Firewall Group in the Unifi web console. **Note that this guide uses the "Legacy" Unifi web interface, use whichever you prefer**:
 
