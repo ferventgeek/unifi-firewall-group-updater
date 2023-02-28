@@ -51,7 +51,7 @@ While that works for small, static lists, I had to automate maintaining that lis
 Grafana is the Source File "But" (For Now)
 ------------------------
 
-Although specific to this use, there's a reason this script isn't completely automated, and why you can use it for sourcing from any host list, not just this use-case. While Grafana Cloud makes all their other whitelists available as JSON URLs, the lists of Synthetic Monitoring hosts is only available by scraping their website. I'm periodically scraping [[https://grafana.com/docs/grafana-cloud/synthetic-monitoring]([https://grafana.com/docs/grafana-cloud/reference/allow-list](https://grafana.com/docs/grafana-cloud/reference/allow-list)](https://grafana.com/docs/grafana-cloud/synthetic-monitoring) and copy-pasta into a file, in this case `grafana-synthetic-probes.txt`. You can use whatever file(s) you like, and if you know to use the `click` module to pipe in a string list on the command line, please feel free to contribute. 
+Although specific to this use, there's a reason this script isn't completely automated, and why you can use it for sourcing from any host list, not just this use-case. While Grafana Cloud makes all their other whitelists available as JSON URLs, the lists of Synthetic Monitoring hosts is only available by scraping their website. I'm periodically scraping [https://grafana.com/docs/grafana-cloud/reference/allow-list](https://grafana.com/docs/grafana-cloud/reference/allow-list) and copy-pasta into a file, in this case `grafana-synthetic-probes.txt`. You can use whatever file(s) you like, and if you know to use the `click` module to pipe in a string list on the command line, please feel free to contribute. 
 
 Automate and Share
 ------------------
