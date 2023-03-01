@@ -67,13 +67,15 @@ Switch to a directory where you want to put the script, then pull the repo:
 ```
 $ git clone https://github.com/ferventgeek/unifi-firewall-group-updater
 ``` 
-or
+or:
 ```
 wget https://github.com/ferventgeek/unifi-firewall-group-updater.git
 ```
 etc.
 
-A `pip` installer would be nice, but I capped work on this to three hours. However, you can install from the `requirements.txt` file or one at a time. Feel free to update `requirements.txt`. Old modules get security musty.
+A PyPy installer would be nice to manage requirements, but I capped work on this
+repo to three hours. However, you can install all dependencies from the
+`requirements.txt` file:
 
 ```
 pip install --upgrade -r requirements.txt
