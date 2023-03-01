@@ -76,7 +76,7 @@ etc.
 A `pip` installer would be nice, but I capped work on this to three hours. However, you can install from the `requirements.txt` file or one at a time. Feel free to update `requirements.txt`. Old modules get security musty.
 
 ```
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 Get the Firewall Group ID From Your Unifi Web Console
