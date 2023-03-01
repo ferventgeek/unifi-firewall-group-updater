@@ -292,5 +292,4 @@ def update_unifi_ip_group(
 
 
 if __name__ == "__main__":
-
     update_unifi_ip_group()
