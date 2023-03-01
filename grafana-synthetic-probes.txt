@@ -1,5 +1,11 @@
-# list of DNS Names for grafana Cloud synthetic probes.
-# there are multiple IP's for each
+# List of DNS Names to lookup for upload into a Unifi Controller Firewall Group.
+# The script will do a DNS lookup for each, and combine all the 'A' records into 
+# the list to push to Unifi.
+
+# Blank lines and comments are allowed, and all lines are trimmed before reading.
+
+# This example is a list of Grafana Cloud synthetic probes.
+# There are 2-3 IP's returned for each
 
 ssm-amsterdam.grafana.net
 sm-atlanta.grafana.net
